@@ -9,6 +9,8 @@ var body = T.lines(2, null);
 var to = 'foo@sample.com,bar@sample.com';
 
 T( 'urlScheme', {
-  url: 'googlegmail:///co?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body) + '&to=' + encodeURIComponent(to),
+  url: 'googlegmail:///co?subject=' + encodeURIComponent(subject) +
+  '&body=' + encodeURIComponent(body) +
+  '&to=' + encodeURIComponent(to),
   option: 'clearAll'
 });

@@ -3,6 +3,7 @@
 var subject = T.line(1);
 var body = T.lines(2, null);
 T( 'urlScheme', {
-  url: 'googlegmail:///co?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body),
+  url: 'googlegmail:///co?subject=' + encodeURIComponent(subject) +
+  '&body=' + encodeURIComponent(body),
   option: 'clearAll'
 });
