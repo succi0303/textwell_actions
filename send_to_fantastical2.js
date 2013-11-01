@@ -7,6 +7,7 @@ T( 'urlScheme', {
   '&notes=' +
   encodeURIComponent(T.lines(2, null)) +
   '&x-source=Textwell' +
-  '&x-success=textwell:',
+  '&x-success=textwell:' +
+  '&x-cancel=textwell:',
   option: 'clearAll'
 });
